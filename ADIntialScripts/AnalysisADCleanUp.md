@@ -1,4 +1,4 @@
-# Data points from analysing Active Directory. 
+# Data points from analyzing Active Directory.  
 
 Currently performed research on groups only, in current investigation Users and Computers are not included. 
 
@@ -18,7 +18,7 @@ I found total **597** Groups empty in BAL.com domain.
 
 - 114
 
-**How many Groups are nexted with in other nested groups?**
+**How many Groups are nested with in other nested groups?**
 
 - 60 
 
@@ -40,7 +40,7 @@ $inactiveDays = 90**
 
 **Comparison used: ($group.whenChanged -lt $cutoffDate)**
 
-**How many inactive groups year wise comparision?**
+**How many inactive groups year wise comparison?**
 
 | Year | Count |
 |------|-------|
@@ -65,7 +65,7 @@ Total records: 572
 
 **Discuss which groups we can totally remove after confirmation?**
 
-- With whom this dicussion should happen?
+- With whom this discussion should happen?
 
 What are the parameters to check for the clean up in security as well as distribution list. 
 
